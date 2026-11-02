@@ -1,4 +1,6 @@
 baseURL = 'https://263168.xyz/'
+relativeURLs = true
+canonifyURLs = false
 defaultContentLanguage = 'zh-cn'
 locale = 'zh-cn'
 title = "Neolight's Blog"
