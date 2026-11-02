@@ -30,9 +30,9 @@
     border-radius: 0;
 }
 
-/* 暗色模式代码块背景由 syntax-dark.css 提供，去掉 PaperMod 默认背景避免叠加 */
+/* 暗色模式代码块背景与 syntax-dark.css (Dracula) 保持一致 */
 .dark .post-content pre {
-    background: #0d1117;
+    background: #282a36;
 }
 
 .dark .post-content code {
