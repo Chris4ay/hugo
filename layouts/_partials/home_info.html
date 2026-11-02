@@ -2,7 +2,7 @@
 <article class="first-entry home-info home-hero">
     {{- with .ImageUrl }}
     <div class="home-hero-avatar">
-        <img src="{{ . | absURL }}" alt="{{ site.Title }}">
+        <img src="{{ . | relURL }}" alt="{{ site.Title }}">
     </div>
     {{- end }}
     <div class="home-hero-content">
