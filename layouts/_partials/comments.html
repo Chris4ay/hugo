@@ -1,0 +1,12 @@
+{{- $envId := .Site.Params.twikoo.envId -}}
+{{- if and $envId (ne $envId "请替换为你的 Twikoo envId 或服务地址") -}}
+<div id="tcomment"></div>
+<script src="https://cdn.staticfile.net/twikoo/1.6.44/twikoo.all.min.js"></script>
+<script>
+  twikoo.init({
+    envId: '{{ $envId }}',
+    el: '#tcomment',
+    lang: 'zh-CN'
+  })
+</script>
+{{- end -}}

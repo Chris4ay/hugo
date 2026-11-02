@@ -1,0 +1,65 @@
+baseURL = 'http://localhost:1313/'
+defaultContentLanguage = 'zh-cn'
+locale = 'zh-cn'
+title = "Neolight's Blog"
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 10
+
+[markup.highlight]
+noClasses = false
+lineNos = false
+tabWidth = 4
+guessSyntax = true
+
+[params]
+env = 'production'
+defaultTheme = 'auto'
+DateFormat = '2006年1月2日'
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+TocOpen = false
+comments = true
+
+[params.assets]
+favicon = '/images/avatar.gif'
+favicon16x16 = '/images/avatar.gif'
+favicon32x32 = '/images/avatar.gif'
+apple_touch_icon = '/images/avatar.gif'
+
+[params.fuseOpts]
+isCaseSensitive = false
+shouldSort = true
+location = 0
+distance = 1000
+threshold = 0.4
+minMatchCharLength = 1
+keys = ['title', 'summary', 'content']
+
+[params.twikoo]
+envId = '' # 留空不加载；部署 Twikoo 后填入你的 envId 或服务地址
+
+[params.homeInfoParams]
+Title = "Neolight's Blog"
+Content = '记录技术、学习和生活。'
+ImageUrl = '/images/avatar.gif'
+
+[[menu.main]]
+identifier = 'archives'
+name = '归档'
+url = '/archives/'
+weight = 10
+
+[[menu.main]]
+identifier = 'search'
+name = '搜索'
+url = '/search/'
+weight = 20
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']

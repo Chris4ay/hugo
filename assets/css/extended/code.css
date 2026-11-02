@@ -1,0 +1,71 @@
+/* 代码块与行内代码美化 */
+
+/* 代码字体：优先等宽编程字体 */
+.post-content code,
+.post-content pre,
+.post-content code span {
+    font-family: 'Fira Code', 'JetBrains Mono', Menlo, Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+}
+
+/* 行内代码 */
+.post-content code {
+    padding: 4px 7px;
+    border-radius: 8px;
+    font-size: 0.88em;
+}
+
+/* 代码块 */
+.post-content pre {
+    border-radius: 14px;
+    padding: 18px 20px;
+    font-size: 0.92em;
+    line-height: 1.7;
+    border: 1px solid rgba(128, 128, 128, 0.14);
+    overflow-x: auto;
+}
+
+.post-content pre code {
+    padding: 0;
+    background: transparent;
+    border-radius: 0;
+}
+
+/* 暗色模式代码块背景由 syntax-dark.css 提供，去掉 PaperMod 默认背景避免叠加 */
+.dark .post-content pre {
+    background: #0d1117;
+}
+
+.dark .post-content code {
+    background: rgba(128, 128, 128, 0.18);
+}
+
+/* 代码块顶栏（含语言标签与复制按钮时更协调） */
+.post-content .highlight {
+    position: relative;
+    border-radius: 14px;
+}
+
+.post-content .highlight table,
+.post-content .highlight pre {
+    margin: 0;
+}
+
+/* 复制按钮样式微调 */
+.post-content .copy-code {
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+/* 暗色模式边框 */
+.dark .post-content pre {
+    border-color: rgba(128, 128, 128, 0.2);
+}
+
+/* 移动端 */
+@media (max-width: 768px) {
+    .post-content pre {
+        border-radius: 10px;
+        padding: 14px 16px;
+        font-size: 0.85em;
+    }
+}
