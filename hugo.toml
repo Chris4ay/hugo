@@ -9,6 +9,9 @@ theme = 'PaperMod'
 [pagination]
 pagerSize = 10
 
+[taxonomies]
+tag = 'tags'
+
 [markup.highlight]
 noClasses = false
 lineNos = false

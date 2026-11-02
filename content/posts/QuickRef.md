@@ -1,6 +1,7 @@
 ---
 title: "QuickRef"
-tags: ["server"]
+date: 2026-10-15T20:55:53+08:00
+tags: ["server", "linux", "工具"]
 ---
 
 # agent
