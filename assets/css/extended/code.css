@@ -31,11 +31,11 @@
 }
 
 /* 暗色模式代码块背景与 syntax-dark.css (Dracula) 保持一致 */
-.dark .post-content pre {
+[data-theme=dark] .post-content pre {
     background: #282a36;
 }
 
-.dark .post-content code {
+[data-theme=dark] .post-content code {
     background: rgba(128, 128, 128, 0.18);
 }
 
@@ -57,7 +57,7 @@
 }
 
 /* 暗色模式边框 */
-.dark .post-content pre {
+[data-theme=dark] .post-content pre {
     border-color: rgba(128, 128, 128, 0.2);
 }
 

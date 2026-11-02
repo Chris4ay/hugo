@@ -1,7 +1,7 @@
 +++
 date = '2026-11-02T10:36:01+08:00'
-draft = true
-title = 'fcsn1'
+draft = false
+title = '废村少女全CG路线攻略+吐槽'
 +++
 
 ---
