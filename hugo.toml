@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://263168.xyz/'
 defaultContentLanguage = 'zh-cn'
 locale = 'zh-cn'
 title = "Neolight's Blog"
