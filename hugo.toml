@@ -53,7 +53,7 @@ minMatchCharLength = 1
 keys = ['title', 'summary', 'content']
 
 [params.twikoo]
-envId = '' # 留空不加载；部署 Twikoo 后填入你的 envId 或服务地址
+envId = 'https://twikoo.263168.xyz' # 留空不加载；部署 Twikoo 后填入你的 envId 或服务地址
 
 [params.homeInfoParams]
 Title = "Neolight's Blog"
