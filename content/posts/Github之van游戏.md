@@ -1,3 +1,9 @@
+---
+title: "GitHub 项目推荐"
+date: 2026-11-27T10:50:00+08:00
+draft: false
+---
+
 # GitHub 项目推荐
 
 - **[JHDev2006/Super-Mario-Bros.-Remastered-Public](https://github.com/JHDev2006/Super-Mario-Bros.-Remastered-Public)**  
